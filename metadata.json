@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Digital Studio",
+  "description": "Bespoke digital architecture, clean data pipelines, and practical web software for organizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
