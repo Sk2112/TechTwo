@@ -56,14 +56,14 @@ export const Navbar: React.FC = () => {
         <a
           href="#home"
           className="flex items-center gap-2 group cursor-pointer"
-          title="Atelier Digital Studio"
+          title="TwoTech Digital Studio"
         >
-          {/* Atelier emblem */}
+          {/* TwoTech emblem */}
           <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-sm bg-[#4e061a] flex items-center justify-center shadow-sm group-hover:bg-[#6b1e2e] transition-colors">
             <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 border border-white/90 rotate-45" />
           </div>
           <span className="font-['Manrope'] font-bold text-sm tracking-tight text-[#1a1c1b]">
-            ATELIER
+            TwoTech
           </span>
           <span className="hidden sm:inline-block font-mono text-[11px] tracking-wider text-[#544244]/80 border-l border-[#dac0c2]/50 pl-2 ml-0.5">
             Digital Studio

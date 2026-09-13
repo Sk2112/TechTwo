@@ -40,7 +40,7 @@ export const servicesData: ServicePillar[] = [
     ctaText: 'Explore data solutions',
     iconName: 'stats',
     caseStudy: {
-      client: 'Atelier Logistics Core',
+      client: 'TwoTech Logistics Core',
       impact: 'Consolidated 18 disparate CSV sheets into a unified single-pane operational pulse.',
       keyDeliverables: [
         'Automated ETL pipelines syncing accounting & attendance databases',

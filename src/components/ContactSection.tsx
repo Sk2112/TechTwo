@@ -137,7 +137,7 @@ export const ContactSection: React.FC = () => {
                     Enquiry Delivered Directly
                   </h3>
                   <p className="text-sm text-[#544244] max-w-md leading-relaxed">
-                    Thank you, <strong>{formData.name || 'Friend'}</strong>. Your brief has been dispatched directly to our engineering desk at Atelier. We will examine your requirements and respond within 24 hours.
+                    Thank you, <strong>{formData.name || 'Friend'}</strong>. Your brief has been dispatched directly to our engineering desk at TwoTech. We will examine your requirements and respond within 24 hours.
                   </p>
                   <div className="pt-4">
                     <button

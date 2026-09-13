@@ -27,12 +27,12 @@ export const Footer: React.FC = () => {
                   <div className="w-3 h-3 border-2 border-[#4e061a] rotate-45" />
                 </div>
                 <span className="text-xl font-extrabold tracking-tight text-white font-['Manrope']">
-                  ATELIER
+                  TwoTech
                 </span>
               </div>
 
               <p className="text-[14px] text-[#ee8594] max-w-sm leading-relaxed">
-                Architectural digital engineering and bespoke software atelier. We materialize robust digital foundations for global industry leaders.
+                Architectural digital engineering and bespoke software TwoTech. We materialize robust digital foundations for global industry leaders.
               </p>
             </div>
 
@@ -146,7 +146,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Legal & Back to Top Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#ee8594]">
           <div>
-            © 2025 Atelier Digital Solutions Studio. Built with structural rigor.
+            © 2025 TwoTech Digital Solutions Studio. Built with structural rigor.
           </div>
 
           <div className="flex items-center gap-6">

@@ -179,7 +179,7 @@ export const OurWork: React.FC<OurWorkProps> = ({ onSelectProject }) => {
                 <span className="w-2 h-2 rounded-full bg-[#dac0c2]" />
                 <span className="w-2 h-2 rounded-full bg-[#dac0c2]" />
               </div>
-              <span className="text-[11px] font-mono text-[#544244]">analytics.atelier-core.io</span>
+              <span className="text-[11px] font-mono text-[#544244]">analytics.TwoTech-core.io</span>
               <span className="w-2 h-2" />
             </div>
 
@@ -293,7 +293,7 @@ export const OurWork: React.FC<OurWorkProps> = ({ onSelectProject }) => {
                 <span className="w-2 h-2 rounded-full bg-[#dac0c2]" />
                 <span className="w-2 h-2 rounded-full bg-[#dac0c2]" />
               </div>
-              <span className="text-[11px] font-mono text-[#544244]">flow.internal.atelier</span>
+              <span className="text-[11px] font-mono text-[#544244]">flow.internal.TwoTech</span>
               <button
                 onClick={triggerWorkflowSimulation}
                 title="Test trigger automation"

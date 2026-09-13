@@ -48,7 +48,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete, forceSho
     <AnimatePresence>
       {isVisible && (
         <motion.div
-          id="atelier-splash-screen"
+          id="TwoTech-splash-screen"
           initial={{ y: 0, opacity: 1 }}
           exit={{
             y: '-100%',
@@ -103,7 +103,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete, forceSho
               className="space-y-2"
             >
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-[-0.03em] uppercase font-['Manrope'] text-white">
-                ATELIER
+                TwoTech
               </h1>
               <p className="text-xs sm:text-sm font-medium tracking-[0.25em] text-[#dac0c2]/80 uppercase">
                 Digital Solutions Studio
