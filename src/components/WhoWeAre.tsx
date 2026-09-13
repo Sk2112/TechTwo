@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Users2, ArrowUpRight } from 'lucide-react';
+import { span } from 'motion/react-client';
 
 export const WhoWeAre: React.FC = () => {
   const approachSteps = [
@@ -35,7 +36,7 @@ export const WhoWeAre: React.FC = () => {
       >
         {/* Section Header */}
         <div className="mb-12 sm:mb-16">
-          <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
+          <div className="text-[12px] uppercase tracking-[0.2em] text-secondary font-bold mb-2">
             Who We Are
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a1c1b] tracking-tight font-['Manrope']">
@@ -44,7 +45,7 @@ export const WhoWeAre: React.FC = () => {
         </div>
 
         {/* Two-column editorial layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-15 lg:gap-20 items-start" px-6 py-8>
           {/* Left Column */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -54,14 +55,14 @@ export const WhoWeAre: React.FC = () => {
             className="lg:col-span-5 space-y-6"
           >
             <p className="text-lg text-[#1a1c1b] leading-relaxed font-normal">
-              We are a two-person development team focused on building useful digital solutions for schools, businesses and growing organizations.
+              “We are <span className='text-secondary font-bold'>TwoTech</span> — a team of passionate developers helping small businesses grow. From stunning websites to insightful data dashboards, we empower you to reach global audiences and make smarter decisions.”
             </p>
             <p className="text-[15px] text-[#544244] leading-relaxed">
               We don't believe every problem needs a complicated system. Sometimes it's a better website. Sometimes it's better use of existing data. And sometimes it's a custom application built around the way an organization actually works.
             </p>
 
             {/* Direct Engineering Access Highlight Box */}
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.01 }}
               className="p-5 bg-[#faf9f7] rounded-lg shadow-sm border border-[#e3e2e0] transition-all"
             >
@@ -74,7 +75,7 @@ export const WhoWeAre: React.FC = () => {
               <p className="text-[13px] text-[#544244] leading-relaxed">
                 You speak directly to the engineers building your tool. No account reps, no ticket queues, no translation loss.
               </p>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Right Column: Approach & Cards */}
@@ -105,8 +106,7 @@ export const WhoWeAre: React.FC = () => {
                   viewport={{ once: true, margin: '-40px' }}
                   transition={{ duration: 0.5, delay: 0.1 * idx }}
                   whileHover={{ y: -3 }}
-                  className="bg-[#faf9f7] p-5 rounded-lg shadow-sm border border-[#e3e2e0] flex flex-col justify-between transition-all group"
-                >
+                  className="rounded-2xl border border-white/10 bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary-400/40 hover:shadow-[0_0_35px_rgba(107,30,46,0.45)]">
                   <div>
                     <span className="text-2xl font-mono text-[#4e061a] font-bold block mb-2">
                       {item.step}
@@ -118,10 +118,10 @@ export const WhoWeAre: React.FC = () => {
                       {item.description}
                     </p>
                   </div>
-                  <div className="mt-5 pt-3 border-t border-[#efeeec] text-[#4e061a] flex items-center justify-between text-[11px] font-mono font-semibold">
+                  {/* <div className="mt-5 pt-3 border-t border-[#efeeec] text-[#4e061a] flex items-center justify-between text-[11px] font-mono font-semibold">
                     <span>Phase: {item.phase}</span>
                     <ArrowUpRight className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                  </div>
+                  </div> */}
                 </motion.div>
               ))}
             </div>

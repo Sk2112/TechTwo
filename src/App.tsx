@@ -6,7 +6,6 @@
 import React, { useState } from 'react';
 import { SplashScreen } from './components/SplashScreen';
 import { ScrollProgress } from './components/ScrollProgress';
-import { Hero } from './components/Hero';
 import { WhoWeAre } from './components/WhoWeAre';
 import { WhatWeDo } from './components/WhatWeDo';
 import { OurWork } from './components/OurWork';
@@ -16,6 +15,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ProjectModal } from './components/ProjectModal';
 import { ServicePillar } from './types';
+import { Hero } from './components/Hero';
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -38,30 +38,18 @@ export default function App() {
         />
       )}
 
-      {/* Spring-smoothed top scroll progress indicator */}
       <ScrollProgress />
 
-      {/* Main Content Sections */}
       <main className="w-full flex flex-col">
-        {/* Section 1: Hero */}
+       
         <Hero />
-
-        {/* Section 2: Who We Are */}
         <WhoWeAre />
-
-        {/* Section 3: What We Do */}
         <WhatWeDo onSelectPillar={(pillar) => setSelectedPillar(pillar)} />
 
-        {/* Section 4: Our Work */}
-        <OurWork />
-
-        {/* Section 5: How We Work */}
+        {/* <OurWork /> */}
         <HowWeWork />
+        {/* <ProductShowcase /> */}
 
-        {/* Section 6: Product in Development (Deep Burgundy Showcase) */}
-        <ProductShowcase />
-
-        {/* Section 7: Contact Form */}
         <ContactSection />
       </main>
 

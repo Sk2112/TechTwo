@@ -67,7 +67,7 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.45 }}
           className="mt-4 max-w-xl text-white/80 font-['Inter'] text-sm md:text-base leading-relaxed px-4"
         >
-          Bespoke digital architecture, clean data pipelines, and high-impact web software built without enterprise bloat.
+          We build modern web applications, analytics platforms, and digital solutions that help businesses work smarter and grow faster.
         </motion.p>
 
         {/* Credibility Badges (3 Column Row matching Reference Figma) */}
@@ -119,22 +119,40 @@ export const Hero: React.FC = () => {
       </motion.div>
 
       {/* Bottom Floating Pill CTA Capsule (Reference: Build with us - Q3/Q4 Availability) */}
-      <motion.div
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.75 }}
-        className="relative z-10 w-full flex justify-center pb-2"
-      >
-        <a
-          href="#contact"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#10b981] hover:bg-[#059669] text-white text-[13px] font-semibold shadow-[0_4px_18px_rgba(16,185,129,0.35)] hover:shadow-[0_6px_24px_rgba(16,185,129,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 group font-['Inter']"
+      <div className=' mt-8 flex flex-col gap-4 sm:flex-row'>
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.75 }}
+          className="relative z-10 w-full flex justify-center pb-2"
         >
-          <span>Build with us — Q3/Q4 Availability</span>
-          <div className="w-5 h-5 rounded-full bg-white/25 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
-            <ArrowRight className="w-3 h-3 text-white stroke-[2.5]" />
-          </div>
-        </a>
-      </motion.div>
+          <a
+            href="#projects"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#10b981] hover:bg-[#059669] text-white text-[13px] font-semibold shadow-[0_4px_18px_rgba(16,185,129,0.35)] hover:shadow-[0_6px_24px_rgba(16,185,129,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 group font-['Inter']"
+          >
+            <span>Explore Our Work</span>
+            <div className="w-5 h-5 rounded-full bg-white/25 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
+              <ArrowRight className="w-3 h-3 text-white stroke-[2.5]" />
+            </div>
+          </a>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.75 }}
+          className="relative z-10 w-full flex justify-center pb-2"
+        >
+          <a
+            href="#contacts"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#10b981] hover:bg-[#059669] text-white text-[13px] font-semibold shadow-[0_4px_18px_rgba(16,185,129,0.35)] hover:shadow-[0_6px_24px_rgba(16,185,129,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 group font-['Inter']"
+          >
+            <span> Let's Talk</span>
+            {/* <div className="w-5 h-5 rounded-full bg-white/25 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
+              <ArrowRight className="w-3 h-3 text-white stroke-[2.5]" />
+            </div> */}
+          </a>
+        </motion.div>
+      </div>
     </section>
   );
 };

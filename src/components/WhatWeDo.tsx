@@ -109,7 +109,7 @@ export const WhatWeDo: React.FC<WhatWeDoProps> = ({ onSelectPillar }) => {
                 viewport={{ once: true, margin: '-40px' }}
                 transition={{ duration: 0.6, delay: idx * 0.12 }}
                 whileHover={{ y: -4 }}
-                className="group bg-white p-7 sm:p-8 rounded-xl shadow-sm border border-[#e3e2e0] hover:border-[#4e061a]/30 hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+                className="group bg-white p-7 sm:p-8 rounded-xl shadow-sm border border-[#e3e2e0] hover:border-[#4e061a]/30 hover:shadow-[0_0_35px_rgba(107,30,46,0.45)] transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   {/* Header with Number & Icon */}
