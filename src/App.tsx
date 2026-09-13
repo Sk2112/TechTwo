@@ -2,8 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { SplashScreen } from './components/SplashScreen';
 import { ScrollProgress } from './components/ScrollProgress';
 import { WhoWeAre } from './components/WhoWeAre';

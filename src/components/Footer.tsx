@@ -40,13 +40,13 @@ export const Footer: React.FC = () => {
             <div className="mt-8 flex items-center gap-2.5">
               <span className="w-2 h-2 rounded-full bg-[#10b981] animate-pulse" />
               <span className="text-xs font-mono uppercase tracking-wider text-[#ffd9dd] font-medium">
-                Available for Q3/Q4 Commissions
+                Available for Work 24/7
               </span>
             </div>
           </div>
 
           {/* Column 2: Index */}
-          <div className="md:col-span-2 space-y-4">
+          {/* <div className="md:col-span-2 space-y-4">
             <div className="text-xs uppercase tracking-widest text-[#ffd9dd] font-mono font-semibold">
               Index
             </div>
@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 3: Capabilities */}
           <div className="md:col-span-3 space-y-4">
@@ -85,16 +85,17 @@ export const Footer: React.FC = () => {
               Capabilities
             </div>
             <ul className="space-y-2.5 text-sm text-[#ee8594]">
-              <li>Enterprise System Architecture</li>
-              <li>Bespoke Web Platform Dev</li>
-              <li>Design Systems &amp; Micro-Interactions</li>
-              <li>Cloud Infrastructures &amp; Scale</li>
-              <li>AI Platform Integration</li>
+              
+              {/* {/* <li>Enterprise System Architecture</li> */}
+              {/* <li>Bespoke Web Platform Dev</li> */}
+              {/* <li>Design Systems &amp; Micro-Interactions</li>  */}
+              {/* <li>Cloud Infrastructures &amp; Scale</li> */}
+              {/* <li>AI Platform Integration</li> */}
             </ul>
           </div>
 
           {/* Column 4: Network */}
-          <div className="md:col-span-2 space-y-4">
+          {/* <div className="md:col-span-2 space-y-4">
             <div className="text-xs uppercase tracking-widest text-[#ffd9dd] font-mono font-semibold">
               Network
             </div>
@@ -109,7 +110,7 @@ export const Footer: React.FC = () => {
                   GitHub
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://linkedin.com"
                   target="_blank"
@@ -118,8 +119,8 @@ export const Footer: React.FC = () => {
                 >
                   LinkedIn
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="https://readcv.com"
                   target="_blank"
@@ -128,8 +129,8 @@ export const Footer: React.FC = () => {
                 >
                   ReadCV
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="https://arena.cx"
                   target="_blank"
@@ -138,19 +139,19 @@ export const Footer: React.FC = () => {
                 >
                   Are.na
                 </a>
-              </li>
-            </ul>
-          </div>
+              </li> */}
+            {/* </ul> */}
+          {/* </div> */} 
         </div>
 
         {/* Bottom Legal & Back to Top Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#ee8594]">
           <div>
-            © 2025 TwoTech Digital Solutions Studio. Built with structural rigor.
+            © 2026 TwoTech Digital Solutions Studio
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#about" className="hover:text-white transition-colors">
+            {/* <a href="#about" className="hover:text-white transition-colors">
               Privacy Architecture
             </a>
             <a href="#services" className="hover:text-white transition-colors">
@@ -158,7 +159,7 @@ export const Footer: React.FC = () => {
             </a>
             <a href="#contact" className="hover:text-white transition-colors">
               Imprint
-            </a>
+            </a> */}
             <button
               onClick={scrollToTop}
               className="flex items-center gap-1 hover:text-white transition-colors cursor-pointer ml-2"

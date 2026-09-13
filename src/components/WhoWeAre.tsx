@@ -55,7 +55,7 @@ export const WhoWeAre: React.FC = () => {
             className="lg:col-span-5 space-y-6"
           >
             <p className="text-lg text-[#1a1c1b] leading-relaxed font-normal">
-              “We are <span className='text-secondary font-bold'>TwoTech</span> — a team of passionate developers helping small businesses grow. From stunning websites to insightful data dashboards, we empower you to reach global audiences and make smarter decisions.”
+              “We are <span className='font-bold'>TwoTech</span> — a team of passionate developers helping small businesses grow. From stunning websites to insightful data dashboards, we empower you to reach global audiences and make smarter decisions.”
             </p>
             <p className="text-[15px] text-[#544244] leading-relaxed">
               We don't believe every problem needs a complicated system. Sometimes it's a better website. Sometimes it's better use of existing data. And sometimes it's a custom application built around the way an organization actually works.

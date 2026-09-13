@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { Award, Heart, ShieldCheck, ArrowRight } from 'lucide-react';
 import { Navbar } from './Navbar';
+import { CloudShader } from './ui/cloud-shader';
 
 export const Hero: React.FC = () => {
   const { scrollY } = useScroll();
@@ -20,11 +21,13 @@ export const Hero: React.FC = () => {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(15, 10, 12, 0.42) 0%, rgba(15, 10, 12, 0.6) 40%, rgba(15, 10, 12, 0.88) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAHFSma6XTfrUERoFZHZJSIBkXcmRlBg-XJf1uUUX22AcrhINIPwTiwj1cMnijBSXxGOuJ2eVBp3JUbu3DVEdVTIK58MwadDmjHqstv0mT4fpgVPJKC3f-Mg5_MQ7W8ToMuPMvQAdMyMsn8DEt6bM_Qn4SbjyKTrg585y4TAo_B5X4dnmP7L-JWPn4SCnnEbq59NRM4ZVjmCBzmFY8_o_mBbfZ8Um4gSVlX8qY41232KXlu6liRlZyKQ')`,
-          }}
+          // style={{
+          //   backgroundImage: `linear-gradient(to bottom, rgba(15, 10, 12, 0.42) 0%, rgba(15, 10, 12, 0.6) 40%, rgba(15, 10, 12, 0.88) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAHFSma6XTfrUERoFZHZJSIBkXcmRlBg-XJf1uUUX22AcrhINIPwTiwj1cMnijBSXxGOuJ2eVBp3JUbu3DVEdVTIK58MwadDmjHqstv0mT4fpgVPJKC3f-Mg5_MQ7W8ToMuPMvQAdMyMsn8DEt6bM_Qn4SbjyKTrg585y4TAo_B5X4dnmP7L-JWPn4SCnnEbq59NRM4ZVjmCBzmFY8_o_mBbfZ8Um4gSVlX8qY41232KXlu6liRlZyKQ')`,
+          // }}
         />
+      <CloudShader/>
       </motion.div>
+
 
       {/* Ambient Vignette & Warm Radial Shimmer */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(107,30,46,0.22)_0%,transparent_75%)] pointer-events-none" />
@@ -44,8 +47,9 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="space-y-0 select-none"
         >
-          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight text-white uppercase leading-[0.92] drop-shadow-[0_4px_24px_rgba(0,0,0,0.65)] font-['Manrope']">
-            GOOD<br />SOFTWARE
+          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-7xl font-extrabold tracking-tight text-white uppercase leading-[0.92] drop-shadow-[0_4px_24px_rgba(0,0,0,0.65)] font-['Manrope']">
+            {/* GOOD<br />SOFTWARE */}
+            LIGHT ON THE POCKET. <br/> HEAVY ON IMPACT.
           </h1>
         </motion.div>
 
