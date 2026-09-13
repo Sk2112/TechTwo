@@ -85,7 +85,7 @@ export const WhatWeDo: React.FC<WhatWeDoProps> = ({ onSelectPillar }) => {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
           <div>
-            <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
+            <div className="text-[14px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
               What We Do
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a1c1b] tracking-tight font-['Manrope']">

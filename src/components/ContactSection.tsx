@@ -76,7 +76,7 @@ export const ContactSection: React.FC = () => {
           className="lg:col-span-5 flex flex-col justify-between"
         >
           <div>
-            <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
+            <div className="text-[14px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
               Get In Touch
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#1a1c1b] tracking-tight leading-tight mb-5 font-['Manrope']">
@@ -91,23 +91,6 @@ export const ContactSection: React.FC = () => {
               <p className="text-[15px] text-[#1a1c1b] font-medium leading-relaxed italic font-['Newsreader']">
                 "You don't need to have the technical solution figured out. That's our job. Tell us where the friction is."
               </p>
-            </div>
-          </div>
-
-          {/* Guarantees */}
-          <div className="mt-10 sm:mt-14 space-y-4 pt-6 border-t border-[#efeeec]">
-            <div className="flex items-center gap-3 text-[#544244] text-sm">
-              <div className="w-8 h-8 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#4e061a] shrink-0">
-                <Clock className="w-4 h-4" />
-              </div>
-              <span className="font-medium">Typical response time: Under 24 hours</span>
-            </div>
-
-            <div className="flex items-center gap-3 text-[#544244] text-sm">
-              <div className="w-8 h-8 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#4e061a] shrink-0">
-                <Handshake className="w-4 h-4" />
-              </div>
-              <span className="font-medium">Direct conversation with the founding engineers</span>
             </div>
           </div>
         </motion.div>

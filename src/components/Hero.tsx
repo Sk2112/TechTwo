@@ -14,12 +14,10 @@ export const Hero: React.FC = () => {
       id="home"
       className="relative w-full min-h-screen flex flex-col justify-between items-center px-4 sm:px-8 pt-4 pb-10 overflow-hidden bg-[#0f0a0c]"
     >
-      {/* Parallax Macro Coffee Extraction / Deep Roast Liquid Background */}
       <motion.div
         style={{ y: yBg }}
         className="absolute inset-0 z-0 bg-cover bg-center no-repeat transition-transform duration-1000 scale-105"
       >
-        {/* <div className="absolute inset-0 bg-cover bg-center"/> */}
       <CloudShader/>
       </motion.div>
 
@@ -127,7 +125,7 @@ export const Hero: React.FC = () => {
         >
           <a
             href="#projects"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#10b981] hover:bg-[#059669] text-white text-[13px] font-semibold shadow-[0_4px_18px_rgba(16,185,129,0.35)] hover:shadow-[0_6px_24px_rgba(16,185,129,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 group font-['Inter']"
+            className=" w-45 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#10b981] hover:bg-[#059669] text-white text-[13px] font-semibold shadow-[0_4px_18px_rgba(16,185,129,0.35)] hover:shadow-[0_6px_24px_rgba(16,185,129,0.5)] transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 group font-['Inter']"
           >
             <span>Explore Our Work</span>
             <div className="w-5 h-5 rounded-full bg-white/25 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">

@@ -41,15 +41,15 @@ export const Navbar: React.FC = () => {
   ];
 
   return (
-    <header className="relative z-40 w-full max-w-[960px] mx-auto px-4 pt-4 sm:pt-6">
+    <header className="fixed z-40 w-full max-w-[960px] mx-auto px-4 pt-2 xs:pt-1">
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-        className={`w-full rounded-full transition-all duration-300 px-4 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between border ${
+       className={`flex w-full items-center justify-between rounded-full border px-4 py-2.5 transition-all duration-300 sm:px-6 sm:py-3 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.18)] border-neutral-200/80 fixed top-4 left-1/2 -translate-x-1/2 max-w-[920px] w-[94%]'
-            : 'bg-white/95 backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.25)] border-white/40'
+            ? 'max-w-[900px] border-[#dac0c2]/60 bg-white/85 shadow-[0_8px_30px_rgba(0,0,0,0.18)] backdrop-blur-xl h-13 '
+            : 'max-w-[960px] border-white/40 bg-white/95 shadow-[0_8px_30px_rgba(0,0,0,0.25)] backdrop-blur-md'
         }`}
       >
         {/* Studio Logo on Left */}

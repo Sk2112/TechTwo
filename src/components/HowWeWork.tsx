@@ -50,7 +50,7 @@ export const HowWeWork: React.FC = () => {
       >
         {/* Section Header */}
         <div className="mb-14 sm:mb-20">
-          <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
+          <div className="text-[14px] font-mono uppercase tracking-[0.2em] text-[#4e061a] font-bold mb-2">
             How We Work
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a1c1b] tracking-tight max-w-2xl font-['Manrope']">
