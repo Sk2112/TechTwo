@@ -36,7 +36,7 @@ export const WhoWeAre: React.FC = () => {
       >
         {/* Section Header */}
         <div className="mb-12 sm:mb-16">
-          <div className="text-[12px] uppercase tracking-[0.2em] text-secondary font-bold mb-2">
+          <div className="text-[12px] font-mono uppercase tracking-[0.2em] text-secondary font-bold mb-2">
             Who We Are
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a1c1b] tracking-tight font-['Manrope']">
