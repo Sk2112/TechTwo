@@ -19,12 +19,7 @@ export const Hero: React.FC = () => {
         style={{ y: yBg }}
         className="absolute inset-0 z-0 bg-cover bg-center no-repeat transition-transform duration-1000 scale-105"
       >
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          // style={{
-          //   backgroundImage: `linear-gradient(to bottom, rgba(15, 10, 12, 0.42) 0%, rgba(15, 10, 12, 0.6) 40%, rgba(15, 10, 12, 0.88) 100%), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAHFSma6XTfrUERoFZHZJSIBkXcmRlBg-XJf1uUUX22AcrhINIPwTiwj1cMnijBSXxGOuJ2eVBp3JUbu3DVEdVTIK58MwadDmjHqstv0mT4fpgVPJKC3f-Mg5_MQ7W8ToMuPMvQAdMyMsn8DEt6bM_Qn4SbjyKTrg585y4TAo_B5X4dnmP7L-JWPn4SCnnEbq59NRM4ZVjmCBzmFY8_o_mBbfZ8Um4gSVlX8qY41232KXlu6liRlZyKQ')`,
-          // }}
-        />
+        {/* <div className="absolute inset-0 bg-cover bg-center"/> */}
       <CloudShader/>
       </motion.div>
 
